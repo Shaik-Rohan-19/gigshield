@@ -5,10 +5,9 @@
 **Persona:** Food Delivery Partners — Zomato / Swiggy
 **Phase 1 Submission Deadline:** March 20, End of Day
 
-> 🎥 **2-Minute Video:** [Insert your video link here — YouTube / Loom / Google Drive]
-> 🔗 **Live Prototype:** Open `prototype/index.html` in any browser — no install needed
+> 🎥 **2-Minute Video:** [(https://drive.google.com/file/d/1aAN1BkqSidpN9wv6VJHClFyuqlpEXsqK/view?usp=drive_link)]
+> 🔗 **Live Prototype:** Open `/Users/mr.ro../Documents/Dev-Trails/prototype/index.html` in any browser — no install needed
 
----
 
 ## Table of Contents
 
