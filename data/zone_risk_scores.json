@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "description": "GigShield zone risk scores — computed from IMD historical disruption data (2022-2024)",
+    "last_updated": "2024-03-20",
+    "score_range": "0 (lowest risk) to 100 (highest risk)",
+    "factors": ["flood_frequency", "waterlogging_history", "heat_wave_days", "aqi_exceedance_days", "bandh_frequency"]
+  },
+  "zones": {
+    "Hyderabad": {
+      "Kukatpally": {
+        "risk_score": 87,
+        "risk_tier": "High",
+        "flood_events_2yr": 8,
+        "heat_wave_days_yr": 12,
+        "aqi_300_days_yr": 3,
+        "premium_multiplier": 1.18,
+        "notes": "Low-lying zone, poor drainage, historically flood-prone during monsoon"
+      },
+      "Ameerpet": {
+        "risk_score": 63,
+        "risk_tier": "Medium",
+        "flood_events_2yr": 4,
+        "heat_wave_days_yr": 11,
+        "aqi_300_days_yr": 3,
+        "premium_multiplier": 1.09,
+        "notes": "Moderate flood history, central zone"
+      },
+      "Secunderabad": {
+        "risk_score": 58,
+        "risk_tier": "Medium",
+        "flood_events_2yr": 3,
+        "heat_wave_days_yr": 13,
+        "aqi_300_days_yr": 4,
+        "premium_multiplier": 1.07,
+        "notes": "Mixed risk, elevated area reduces flood risk but high heat exposure"
+      },
+      "Banjara Hills": {
+        "risk_score": 28,
+        "risk_tier": "Low",
+        "flood_events_2yr": 1,
+        "heat_wave_days_yr": 10,
+        "aqi_300_days_yr": 2,
+        "premium_multiplier": 0.94,
+        "notes": "Elevated area, good drainage, low historical disruption"
+      },
+      "Kondapur": {
+        "risk_score": 45,
+        "risk_tier": "Medium",
+        "flood_events_2yr": 2,
+        "heat_wave_days_yr": 11,
+        "aqi_300_days_yr": 3,
+        "premium_multiplier": 1.00,
+        "notes": "Mixed risk profile"
+      }
+    },
+    "Bengaluru": {
+      "Koramangala": {
+        "risk_score": 72,
+        "risk_tier": "High",
+        "flood_events_2yr": 6,
+        "heat_wave_days_yr": 4,
+        "aqi_300_days_yr": 1,
+        "premium_multiplier": 1.12,
+        "notes": "Known waterlogging zone during monsoon, drainage infrastructure poor"
+      },
+      "Indiranagar": {
+        "risk_score": 55,
+        "risk_tier": "Medium",
+        "flood_events_2yr": 3,
+        "heat_wave_days_yr": 4,
+        "aqi_300_days_yr": 1,
+        "premium_multiplier": 1.05,
+        "notes": "Moderate risk, some low-lying pockets"
+      },
+      "Whitefield": {
+        "risk_score": 40,
+        "risk_tier": "Low",
+        "flood_events_2yr": 2,
+        "heat_wave_days_yr": 5,
+        "aqi_300_days_yr": 2,
+        "premium_multiplier": 0.98,
+        "notes": "Better infrastructure, lower risk"
+      }
+    },
+    "Mumbai": {
+      "Andheri": {
+        "risk_score": 80,
+        "risk_tier": "High",
+        "flood_events_2yr": 10,
+        "heat_wave_days_yr": 6,
+        "aqi_300_days_yr": 5,
+        "premium_multiplier": 1.15,
+        "notes": "High monsoon flood risk, heavy rain disruptions common June-September"
+      },
+      "Bandra": {
+        "risk_score": 65,
+        "risk_tier": "Medium",
+        "flood_events_2yr": 5,
+        "heat_wave_days_yr": 6,
+        "aqi_300_days_yr": 4,
+        "premium_multiplier": 1.08,
+        "notes": "Moderate monsoon risk"
+      }
+    },
+    "Delhi": {
+      "Connaught Place": {
+        "risk_score": 50,
+        "risk_tier": "Medium",
+        "flood_events_2yr": 2,
+        "heat_wave_days_yr": 25,
+        "aqi_300_days_yr": 45,
+        "premium_multiplier": 1.10,
+        "notes": "High AQI risk in winter, extreme heat in summer"
+      },
+      "Dwarka": {
+        "risk_score": 45,
+        "risk_tier": "Medium",
+        "flood_events_2yr": 2,
+        "heat_wave_days_yr": 24,
+        "aqi_300_days_yr": 40,
+        "premium_multiplier": 1.06,
+        "notes": "AQI and heat primary risks"
+      }
+    },
+    "Chennai": {
+      "Velachery": {
+        "risk_score": 70,
+        "risk_tier": "High",
+        "flood_events_2yr": 7,
+        "heat_wave_days_yr": 15,
+        "aqi_300_days_yr": 2,
+        "premium_multiplier": 1.11,
+        "notes": "Flood-prone, historically impacted by northeast monsoon (Oct-Dec)"
+      },
+      "Anna Nagar": {
+        "risk_score": 60,
+        "risk_tier": "Medium",
+        "flood_events_2yr": 4,
+        "heat_wave_days_yr": 14,
+        "aqi_300_days_yr": 2,
+        "premium_multiplier": 1.07,
+        "notes": "Moderate monsoon risk"
+      }
+    }
+  }
+}
